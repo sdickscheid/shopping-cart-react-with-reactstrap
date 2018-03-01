@@ -1,0 +1,71 @@
+/* .App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+} */
+
+.add-item-form {
+  margin-top: 50px;
+  background-color: #cccccc;
+  border: 1px solid grey;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 5px;
+}
+
+.cart-items-header {
+  background-color: grey;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+.cart-items-totals {
+  background-color: lightgreen;
+  font-weight: bold;
+  /* border-top: 1px;
+  border-bottom: 1px; */
+  border-style: groove groove double groove;
+}
+
+.shopping-cart {
+  margin-top: 25px;
+  margin-bottom: 50px;
+  background-color: #cccccc;
+  border: 1px solid grey;
+  border-radius: 5px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.cart-title {
+  text-align: center;
+  padding-bottom: 5px;
+}
+
+.form-title {
+  text-align: center;
+  padding-bottom: 5px;
+}
