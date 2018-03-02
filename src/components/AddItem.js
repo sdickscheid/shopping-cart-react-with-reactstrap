@@ -29,7 +29,7 @@ export default class AddItem extends React.Component {
     })
 
     return (
-      <Container>
+
         <div className="container add-item-form">
           <h3 className="form-title">Select a Product</h3>
           <Form>
@@ -54,7 +54,7 @@ export default class AddItem extends React.Component {
             <Button onClick={this.handleClick}>Add to Cart</Button>
           </Form>
         </div>
-      </Container>
+
 
     );
   }

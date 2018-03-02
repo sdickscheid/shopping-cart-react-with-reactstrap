@@ -3,7 +3,8 @@ import React from 'react'
 const CartItem = (props) => {
 
   function centsToDollars(amt){
-    return '$' + amt/100
+    let total = parseFloat(Math.round(amt) / 100).toFixed(2)
+    return '$' + total
   }
 
   return (
